@@ -1,8 +1,5 @@
 package lesson4.task4;
 
-
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
-
 public class Task {
     public static void main(String[] args) {
     }
