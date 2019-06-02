@@ -11,13 +11,14 @@ public class RemoteController implements Device, Volume{
 
     }
 
-    public void setChannel() {
+    public void setChannel(int channel) {
 
     }
 
-    public int currentChanel() {
-        return 0;
+    public void currentChanel() {
+
     }
+
 
     public void upVolume() {
 

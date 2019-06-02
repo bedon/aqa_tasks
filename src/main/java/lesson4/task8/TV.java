@@ -3,6 +3,7 @@ package lesson4.task8;
 public class TV extends TVDevice {
     int volumeLevel;
     int channelNumber;
+
     public void powerOn() {
 
     }
@@ -11,13 +12,14 @@ public class TV extends TVDevice {
 
     }
 
-    public void setChannel() {
+    public void setChannel(int channel) {
 
     }
 
-    public int currentChanel() {
-        return 0;
+    public void currentChanel() {
+
     }
+
 
     public void upVolume() {
 
