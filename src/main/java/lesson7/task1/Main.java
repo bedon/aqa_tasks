@@ -3,7 +3,11 @@ package lesson7.task1;
 import java.lang.reflect.Method;
 
 public class Main {
-
+    /**
+    1. Создать аннотацию, которая принимает параметры для метода.
+    Написать код, который вызовет метод, помеченный этой аннотацией,
+    и передаст параметры аннотации в вызываемый метод.
+    */
     @TestAnnotation(a = 8, b = 13)
     public void test(int a, int b) {
         System.out.println("a = " + a);
