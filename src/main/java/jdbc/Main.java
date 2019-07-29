@@ -104,6 +104,9 @@ public class Main {
     private static void initDB() throws SQLException {
         Statement st = conn.createStatement();
         try {
+            st.execute("DROP DATABASE IF EXISTS test_db");
+            st.execute("CREATE DATABASE test_db");
+            st.execute("USE test_db");
             st.execute("DROP TABLE IF EXISTS workers_new");
             st.execute("CREATE TABLE workers_new (" +
                     "id INT NOT NULL AUTO_INCREMENT PRIMARY KEY," +
